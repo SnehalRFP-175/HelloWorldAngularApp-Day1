@@ -2,10 +2,14 @@
 
 <div>
   <h1>
-    <!--It uses the template expression in double curly braces {{this.title}} to display the data-->
-    {{this.title}}
+    <!--{this.userName}} Change in the userName reflected in the header Tag-->
+    Hello {{this.userName}} From BridgeLabz
   </h1>
 
   <!--UC2-Display BridgeLabz Logo using Property Binding-->
   <img  [src]="imgUrl" (click)="onClick($event)" alt="Briglabz Logo : a Bridge to Employement through a Lab Works">
+</div>
+<!--UC4-Bind the input Form Element using [(ngModel)] to userName-->
+<div>
+  <input [(ngModel)]="userName"/>
 </div>

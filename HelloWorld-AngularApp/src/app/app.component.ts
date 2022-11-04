@@ -10,6 +10,7 @@ export class AppComponent {
 
   imgUrl="../assets/BridgeLabzLogo.jpg";
   url = "https://www.bridgelabz.com";
+  userName : String = "";
 
   /* Initializing title when ngOnInit lifecycle event is fired.*/
   ngOnInit(): void{
