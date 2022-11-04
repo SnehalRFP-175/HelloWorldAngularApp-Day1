@@ -5,6 +5,7 @@
     <!--It uses the template expression in double curly braces {{this.title}} to display the data-->
     {{this.title}}
   </h1>
+
   <!--UC2-Display BridgeLabz Logo using Property Binding-->
-  <img  [src]="imgUrl"  alt="Briglabz Logo : a Bridge to Employement through a Lab Works">
+  <img  [src]="imgUrl" (click)="onClick($event)" alt="Briglabz Logo : a Bridge to Employement through a Lab Works">
 </div>
